@@ -248,6 +248,11 @@ img {
     width: calc((100% - 2 * 24px) / 3)
 
 }
+
+.section-portf {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .gallery-team {
     display: flex;
     align-items: flex-start;
