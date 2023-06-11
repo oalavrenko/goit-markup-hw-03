@@ -52,7 +52,7 @@ img {
 
 }
 .el-principles {
-    width calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .header-principle {
@@ -252,6 +252,15 @@ img {
 .section-portf {
     padding-top: 96px;
     padding-bottom: 120px;
+}
+.visually-hidden {
+    height: 1px;
+    overflow: hidden;
+    width: 1px;
+    position: absolute;
+    white-space: nowrap;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
 }
 .gallery-team {
     display: flex;
