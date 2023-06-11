@@ -40,14 +40,34 @@ img {
 
 .hero-button {
     margin-top: 48px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
+.section-two {
+    padding: 120px 0;
+
+}
+.el-principles {
+    width: calc((100% - 72px) / 4);
+}
+
+.header-principle {
+    margin-bottom: 8px;
+}
 .principles {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 24px;
     
+}
+
+.section-three {
+    padding-bottom: 120px;
 }
 .portfolio-example {
     border: 1px solid #E7E9FC;
@@ -105,7 +125,8 @@ img {
     text-align: center;
     color: #ffffff;
     height: auto;
-
+    max-width: 496px;
+    justify-content: center;
 }
 
 .logo {
@@ -212,7 +233,7 @@ img {
 
 .gallery-h {
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .gallery {
@@ -220,13 +241,19 @@ img {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 120px;
+    gap: 24px;
 }
 
-.gallery-two {
+.gallery-el {
+    width: calc((100% - 48px) / 3);
+
+}
+.gallery-team {
     display: flex;
     align-items: flex-start;
+    gap: 24px;
 }
-.text {
+.desc {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -248,15 +275,24 @@ img {
 
 .section-four {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .member {
     justify-content: center;
     text-align: center;
+    padding: 32px 16px
+
+}
+
+.name {
+    margin-bottom: 8px;
 }
 
 .mark {
@@ -311,11 +347,13 @@ img {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     margin-left: 156px;
-    width: 264px;
+    max-width: 264px;
     margin-top: 140px;
 }
 
 .footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
     margin-left: 156px;
     padding-top: 101px;
 }
@@ -364,6 +402,7 @@ img {
     background-color:#2e2f42;
     width: 1440px;
     height: 312px;
+    padding: 100px 0;
 }
 
 .filter-container {
