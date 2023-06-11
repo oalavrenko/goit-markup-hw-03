@@ -14,7 +14,7 @@ img {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px
+    padding: 0 15px;
 }
 
 .header {
@@ -35,6 +35,7 @@ img {
     margin-left: auto;
     padding-top: 188px;
     margin-bottom: auto;
+    max-width: 496px;
 }
 
 .hero-button {
@@ -68,7 +69,7 @@ img {
 .nav {
     display: flex;
     align-items: center;
-    padding: 24px 0
+    padding: 24px 0;
 }
 
 .logo-nav-container {
@@ -87,7 +88,7 @@ img {
 
 .list-container {
     display: flex;
-    gap: 40px
+    gap: 40px;
 }
 
 .header-one {
@@ -99,7 +100,7 @@ img {
     text-align: center;
     color: #ffffff;
     height: auto;
-    width: auto;
+
 }
 
 .logo {
@@ -115,11 +116,11 @@ img {
 }
 
 .logo-one {
-    color: #2e2f42
+    color: #2e2f42;
 }
 
 .logo-two {
-    color: #f4f4fd
+    color: #f4f4fd;
 }
 
 .nav-link {
@@ -351,6 +352,7 @@ img {
     top: 72px;
     text-align: center;
     justify-content: center;
+    padding: 188px 0;
 }
 
 .footer{
