@@ -119,6 +119,11 @@ img {
     justify-content: center;
 }
 
+.nav-cont {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -129,6 +134,10 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;
+}
+
+.contact-list {
+    justify-content: end;
 }
 
 .logo-one {
