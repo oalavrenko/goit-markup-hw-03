@@ -88,11 +88,6 @@ img {
     font-family: 'Roboto', cursive;
 }
 
-.nav {
-    display: flex;
-    align-items: center;
-}
-
 .logo-container {
     margin-right: 76px;
 }
@@ -108,6 +103,9 @@ img {
     gap: 40px;
 }
 
+.last-contact {
+    margin-right: 0px;
+}
 .header-one {
     line-height: 1.07;
     font-style: normal;
@@ -169,7 +167,6 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
-    margin-right: 40px;
 }
 
 .nav {
@@ -179,6 +176,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+    align-items: center;
+    display: flex;
 }
    
 .contact:focus {
