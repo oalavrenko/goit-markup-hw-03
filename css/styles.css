@@ -278,7 +278,7 @@ img {
 }
 .gallery-team {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 24px;
 }
 .desc {
