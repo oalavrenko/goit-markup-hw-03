@@ -141,6 +141,20 @@ img {
     justify-content: end;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .logo-one {
     color: #2e2f42;
 }
@@ -307,31 +321,6 @@ img {
 
 .name {
     margin-bottom: 8px;
-}
-
-.mark {
-    margin-left: 24px;
-    margin-right: 24px;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    margin-bottom: 120px;
-    justify-content: center;
-}
-
-.tom {
-    margin-left: 24px;
-    margin-right: 24px;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    margin-bottom: 120px;
-}
-
-.daniel {
-    border-radius: 0px 0px 4px 4px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 120px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .header-portf {
