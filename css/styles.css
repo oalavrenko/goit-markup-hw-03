@@ -143,6 +143,11 @@ img {
     display: flex;
 }
 
+.contacts {
+    margin-right: auto;
+    align-content: flex-end;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -352,7 +357,7 @@ img {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    margin-left: 156px;
+   margin-right: auto;
     max-width: 264px;
    
 }
@@ -360,7 +365,7 @@ img {
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
-    margin-left: 156px;
+    margin-left: auto;
     
 }
 .filter:hover {background: #404BBF;
