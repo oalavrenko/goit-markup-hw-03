@@ -47,10 +47,9 @@ img {
 }
 
 .section-two {
-  padding-top: 120px;
   padding-right: 0px;
-  padding-bottom: 0px;
   padding-left: 0px;
+  padding: 120px 0;
 }
 .el-principles {
   width: calc((100% - 72px) / 4);
@@ -240,7 +239,6 @@ img {
 }
 
 .gallery-h {
-  margin-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -258,6 +256,7 @@ img {
 
 .section-portf {
   padding-bottom: 120px;
+  padding-top: 96px;
 }
 
 .gallery-team {
@@ -288,6 +287,7 @@ img {
 
 .section-four {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team {
@@ -327,10 +327,6 @@ img {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.team-header {
-  padding-top: 120px;
 }
 
 .footer-desc {
@@ -401,7 +397,6 @@ img {
 .filter-container {
   display: flex;
   justify-content: center;
-  margin-top: 96px;
   margin-bottom: 72px;
   gap: 24px;
 }
